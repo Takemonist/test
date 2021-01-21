@@ -2,6 +2,6 @@
 
 int main(int, char**) {
     int b = 0;
-    std::cout << "Hello, world!\n";
+    std::cout << b;
     printf("aa");
 }
