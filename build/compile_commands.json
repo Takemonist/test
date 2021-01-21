@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/ARRC/test/build",
+  "command": "C:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles\\helloworld.dir\\main.cpp.obj -c C:\\ARRC\\test\\main.cpp",
+  "file": "C:/ARRC/test/main.cpp"
+}
+]
