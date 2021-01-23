@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/ARRC/test/display.cpp" "C:/ARRC/test/build/CMakeFiles/helloworld.dir/display.cpp.obj"
+  "C:/ARRC/test/game.cpp" "C:/ARRC/test/build/CMakeFiles/helloworld.dir/game.cpp.obj"
   "C:/ARRC/test/main.cpp" "C:/ARRC/test/build/CMakeFiles/helloworld.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

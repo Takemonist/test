@@ -538,6 +538,60 @@ helloworld/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/build
 .PHONY : helloworld/fast
 
+display.obj: display.cpp.obj
+
+.PHONY : display.obj
+
+# target to build an object file
+display.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/display.cpp.obj
+.PHONY : display.cpp.obj
+
+display.i: display.cpp.i
+
+.PHONY : display.i
+
+# target to preprocess a source file
+display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/display.cpp.i
+.PHONY : display.cpp.i
+
+display.s: display.cpp.s
+
+.PHONY : display.s
+
+# target to generate assembly for a file
+display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/display.cpp.s
+.PHONY : display.cpp.s
+
+game.obj: game.cpp.obj
+
+.PHONY : game.obj
+
+# target to build an object file
+game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/game.cpp.obj
+.PHONY : game.cpp.obj
+
+game.i: game.cpp.i
+
+.PHONY : game.i
+
+# target to preprocess a source file
+game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/game.cpp.i
+.PHONY : game.cpp.i
+
+game.s: game.cpp.s
+
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloworld.dir\build.make CMakeFiles/helloworld.dir/game.cpp.s
+.PHONY : game.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -605,6 +659,12 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... helloworld
+	@echo ... display.obj
+	@echo ... display.i
+	@echo ... display.s
+	@echo ... game.obj
+	@echo ... game.i
+	@echo ... game.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

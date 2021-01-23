@@ -6,7 +6,25 @@
 
 #IncludeRegexTransform: 
 
+C:/ARRC/test/display.h
+iostream
+-
+vector
+-
+
+C:/ARRC/test/game.h
+iostream
+-
+vector
+-
+
 C:/ARRC/test/main.cpp
 iostream
 -
+vector
+-
+display.h
+C:/ARRC/test/display.h
+game.h
+C:/ARRC/test/game.h
 
