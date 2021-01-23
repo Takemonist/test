@@ -12,11 +12,17 @@ iostream
 vector
 -
 
+C:/ARRC/test/game.cpp
+game.h
+C:/ARRC/test/game.h
+
 C:/ARRC/test/game.h
 iostream
 -
 vector
 -
+player.h
+C:/ARRC/test/player.h
 
 C:/ARRC/test/main.cpp
 iostream
@@ -25,6 +31,14 @@ vector
 -
 display.h
 C:/ARRC/test/display.h
+game.h
+C:/ARRC/test/game.h
+
+C:/ARRC/test/player.h
+iostream
+-
+vector
+-
 game.h
 C:/ARRC/test/game.h
 

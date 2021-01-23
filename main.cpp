@@ -35,8 +35,9 @@ int main() {
     NuKe::Display d2(20,20,ptn);
     NuKe::Game g1(20,20,data,pttn);
     NuKe::Game g2(20,20,data,pttn);
-    d1.input(g1.output());
-    d2.input(g2.output());
+    g2.players.at(0)->move(5,5);
+    d1.input(g1.getdata());
+    d2.input(g2.getdata());
     d1.show();
     d2.show();
     return 0;
